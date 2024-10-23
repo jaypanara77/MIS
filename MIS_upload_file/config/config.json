@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "mis-event-version-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/misEventVersion/MisEventVersionWebPart.js",
+          "manifest": "./src/webparts/misEventVersion/MisEventVersionWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MisEventVersionWebPartStrings": "lib/webparts/misEventVersion/loc/{locale}.js"
+  }
+}

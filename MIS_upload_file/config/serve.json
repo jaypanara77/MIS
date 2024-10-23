@@ -1,0 +1,6 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "initialPage": "https://realitycraftprivatelimited.sharepoint.com/sites/DevJay/_layouts/15/workbench.aspx?NDCCode=62332-0251-18"
+}
